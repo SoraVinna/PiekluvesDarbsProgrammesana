@@ -1,0 +1,500 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c3d7b8;
+    color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image:url(bildes/fons1.jpg); 
+    background-size: cover; 
+    height: 200px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+h1 {
+    font-size: 3rem; 
+    text-align: center; 
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #1c1c1c;
+    margin: 0;
+}
+p.large-text {
+    font-size: 18px; 
+    line-height: 1.6;
+    color: #333;
+}
+
+.tab {
+    white-space: pre;
+}
+
+/* Navigācijas josla */
+
+nav {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: #ffffff;
+    color: #1c1c1c;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Vidusdaļa */
+
+main {
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.mainCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.mainIeeja {
+    flex-wrap:wrap ;
+    padding: 30px;
+    text-align: center
+}
+
+
+
+article {
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px #1c1c1c;
+    margin: 20px;
+    flex-basis: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article img {
+    width: 90%;
+    height: auto;
+    margin: 20px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 4px #1c1c1c;
+}
+article h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: #1c1c1c;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+article p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: #707070;
+}
+
+
+
+footer {
+    background-color: #1c1c1c;
+    color: #ffffffc2; 
+    height: max-content;
+    width: 100%;
+    text-align:justify;
+}
+
+/* Pogas uz sugām */
+
+.card {
+    width: 400px;
+    border: 1px solid #000000; 
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+.card img {
+    width: 90%;
+    border-radius: 5%;
+    margin: 25px;
+}
+.card h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align:center;
+}
+.card h4 {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Cinzel Decorative';
+    text-align:center;
+}
+.card h5 {
+    margin: 0;
+    font-size: 16px;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align:justify;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* video */
+
+.video-container {
+    width: 49%;
+    float: left;
+    margin-right: 1%;
+}
+.video-container h3 {
+    text-align: center;
+}
+
+.beigas{
+    text-align: end; 
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.tuks{
+    height: 70%;
+}
+
+/* atsauksmes */
+
+.comment-form {
+    text-align: center;
+}
+.comment-form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.comment-form textarea {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #1c1c1c;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+.comment-form input[type="submit"] {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.comment-form input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #1c1c1c;
+    transition: background-color 0.3s;
+}
+
+/* Pagaidām */
+
+.aaa{
+    flex-wrap: wrap
+}
+a {
+    text-decoration: none;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+.contact-info ul li {
+    margin-bottom: 5px;
+}
+.social-links {
+    margin-top: 20px;
+}
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+::selection {
+    color: #ffffff; 
+    background-color: #0a4407;
+}
+
+:root{
+    --blue:#3498db;
+    --dark-blue:#2980b9;
+    --red:#e74c3c;
+    --dark-red:#c0392b;
+    --black:#333;
+    --white:#fff;
+    --light-bg:#eee;
+    --box-shadow:0 5px 10px rgba(0,0,0,.1);
+ }
+
+
+.delete-btn{
+    width: 100%;
+    border-radius: 5px;
+    padding:0 0;
+    color:var(--white);
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+}
+
+*::-webkit-scrollbar{
+   width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+   background-color: var(--blue);
+}
+
+ 
+.btn{
+    background-color: var(--blue);
+}
+ 
+.btn:hover{
+    background-color: var(--dark-blue);
+}
+ 
+.delete-btn{
+    background-color: var(--red);
+}
+ 
+.delete-btn:hover{
+    background-color: var(--dark-red);
+}
+
+.btn-container {
+    display: inline-block;
+    margin: 5px;
+}
+
+.btn, .delete-btn {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn:hover, .delete-btn:hover {
+    opacity: 0.8;
+}
+
+ 
+.message{
+    margin:10px 0;
+    width: 100%;
+    border-radius: 5px;
+    padding:10px;
+    text-align: center;
+    background-color: var(--red);
+    color:var(--white);
+    font-size: 20px;
+}
+ 
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+ 
+.form-container form{
+    padding:20px;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 500px;
+    border-radius: 5px;
+}
+ 
+.form-container form h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color:var(--black);
+    text-transform: uppercase;
+}
+ 
+.form-container form .box{
+    width: 100%;
+    border-radius: 5px;
+    padding:12px 14px;
+    font-size: 18px;
+    color:var(--black);
+    margin:10px 0;
+    background-color: var(--light-bg);
+}
+ 
+.form-container form p{
+    margin-top: 15px;
+    font-size: 20px;
+    color:var(--black);
+}
+ 
+.form-container form p a{
+    color:var(--red);
+}
+ 
+.form-container form p a:hover{
+    text-decoration: underline;
+}
+ 
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+ 
+.container .profile{
+    padding:20px;
+    text-align: center;
+    width: 400px;
+    border-radius: 5px;
+}
+ 
+.container .profile img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+ 
+.container .profile h3{
+    margin:5px 0;
+    font-size: 20px;
+    color:var(--black);
+}
+ 
+.container .profile p{
+    margin-top: 20px;
+    color:var(--black);
+    font-size: 20px;
+}
+ 
+.container .profile p a{
+    color:var(--red);
+}
+ 
+.container .profile p a:hover{
+    text-decoration: underline;
+}
+ 
+.update-profile{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+ 
+.update-profile form{
+    padding:20px;
+    text-align: center;
+    width: 700px;
+    text-align: center;
+    border-radius: 5px;
+}
+ 
+.update-profile form img{
+    height: 200px;
+    width: 200p;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+ 
+.update-profile form .flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap:15px;
+}
+ 
+.update-profile form .flex .inputBox{
+    width: 49%;
+}
+ 
+.update-profile form .flex .inputBox span{
+    text-align: left;
+    display: block;
+    margin-top: 15px;
+    font-size: 17px;
+    color:var(--black);
+}
+ 
+.update-profile form .flex .inputBox .box{
+    width: 100%;
+    border-radius: 5px;
+    padding:12px 14px;
+    font-size: 17px;
+    color:var(--black);
+    margin-top: 10px;
+}
+ 
+@media (max-width:650px){
+    .update-profile form .flex{
+       flex-wrap: wrap;
+       gap:0;
+    }
+    .update-profile form .flex .inputBox{
+       width: 100%;
+    }
+}
